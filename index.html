@@ -11,19 +11,26 @@
     <title>Modal using bootstrap</title>
   </head>
   <body>
-<div class="conatiner">
+<div class="container">
       <h3>Modal Window</h3>
-      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mymodal"> Open Modal Window></button>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal"> Open Modal Window></button>
       <!-- The Modal -->
       <div class="modal" id="myModal">
         <div class="modal-dialog">
         <div class="modal-content">
           <!-- modal header-->
-          <div class="modal-header">
+          <div class="modal-header bg-warning">
             <h4>This is the title of the modal window</h4>
-            <button type="button" class="close" data-dismiss="modal">&times;"></button>
-
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
           </div>
+        <!-- modal body-->
+        <div class="modal-body">
+          <h5> New York City <small> The Big Apple</h5>
+          <img src="images/nyc.jpg" alt="NYC image" title="New York City" style="width:100%;">
+            <p>This paragraph describe New York City</p>
+        </div>
+        <!-- modal footer -->
+
 
         </div>
 
@@ -31,7 +38,7 @@
 
       </div><!-- end of modal-->
 
-</div><!-- end o container-->
+</div><!-- end of container-->
 
 
     <!-- Optional JavaScript -->
