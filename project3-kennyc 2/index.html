@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css" type="text/css">
+
+
+    <title>Portfolio site by Kenny Collado</title>
+  </head>
+<body>
+  <!-- navbar with logo collapsible button -->
+  <nav class="navbar bg-dark navbar-dark navbar-expand-md">
+    <a href="#" class="navbar-brand"> ABOUT ME</a>
+    <br>
+
+
+  <!-- create a hamburger button to control the collapsible tab -->
+  <button type="button" name"button" class="navbar-toggler" data-toggle="collapse"
+  data-target="#collapseTab"  aria-expanded="false" aria-label="Toggle navigation">
+  <span class= "navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapseTab">
+    <div class="navbar-nav">
+      <a href="#webtech" class="nav-item nav-link">Web Tech Projects</a>
+      <a href="#activities" class="nav-item nav-link">Class Activities</a>
+      <a href="#contact" class="nav-item nav-link"> Contact</a>
+    </div>
+  </div>
+  </nav>
+<br><br>
+    <h1 class="bg-warning container">Portfolio Site of Kenny Collado</h1>
+
+
+<div class="container">
+  <div class="row about">
+    <div class="col-sm-6 bg-dark abouttxt">
+      <p>My name is Kenny Collado, and I am one semester away from receiving my associates
+      degree in Digital Art and Design. I felt it was most appropriate to jump into the Digital
+      world, which upon starting, seemed very foreign to me. I have been drawing and illustrating
+      practically my whole life but never in the realm of software, wacom tablets, and programs.
+      However, with time, a love and excitment for the craft continues to brew becasue of new
+      methods and approaches that keep presenting themselves to me.</p>
+    </div>
+    <div class="col-sm-6 ">
+      <img src="images/tablet2.jpg" alt="Drawing Digitally" title="Digital Art" >
+    </div>
+  </div>
+</div>
+
+
+<br><hr><br>
+<!--Web Technology Projects-->
+<h3 class="bg-warning container projheader">Web Technology Projects</h3>
+<div class="container">
+<div class="row">
+    <div class="col-sm-6">
+      <div class="card crd" data-target="#modal1" data-toggle="modal">
+        <img src="images/vegasstrip.jpg" alt="Project 1" style="width:100%" title="Project 1 - Dreaming Places">
+      <div class="crdtxt">
+        <h5> HTML Project 1 - Dreaming Places</h5>
+      </div>
+      </div>
+    </div>
+<div class="col-sm-6">
+      <div class="card crd" data-target="#modal1" data-toggle="modal">
+        <img src="images/ART1.jpg" alt="Project 2" style="width:100%" title="Project 2 - Futurism Print Store">
+      <div class="crdtxt">
+        <h5> HTML and CSS Project 2 - Futurism Print Store</h5>
+      </div>
+      </div>
+</div>
+</div>
+</div>
+<!-- modal one-->
+<div class="modal fade" id="modal1">
+       <div class="modal-dialog modal-lg modal-dialog-centered">
+         <div class="modal-content">
+<!-- modal header-->
+  <div class="modal-header">
+  <h4>HTML Project 1 - Dreaming Places</h4>
+  <button type="button" name="close" data-dismiss='modal'>&times;</button>
+  </div>
+<!--modal body-->
+<div class="modal-body bg-dark">
+            <img src="images/vegasstrip.jpg" alt="Project 1" style='width:100%' title="Project 1 - Dreaming Places">
+            <p>This first attempt was designed to demonstrate basic HTML skills, such as layout, use of images and links and tables and lists.</p>
+            <p>I chose Las Vegas, NV because of the dream like nature behind it. The 300 days of sunshine, the heat, the gambling, the lights and palm trees all make it a a mirage in the desert. </p>
+            <a href="projects/kennyproject1(1)index.html" target="_blank" class="links"> Here is my Project 1</a>
+</div>
+
+<hr>
+
+<div class="modal-footer">
+<button type="button" class="btn btn-danger" data-dismiss="modal"> Close</button>
+</div>
+</div>
+</div>
+</div>
+
+<!-- MODAL2 -->
+<div class="modal fade" id="modal2">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+<!-- modal header-->
+<div class="modal-header">
+    <h4>HTML and CSS Project 2 - Futurism Print Store</h4>
+    <button type="button" name="close" data-dismiss='modal'>&times;</button>
+</div>
+  <!--modal body-->
+      <div class="modal-body bg-warning">
+      <img src="images/ART1.jpg" alt="Project 2" style='width:100%' title="Project 2 - Sales Website">
+      <p>This second project was intended at showcasing previously learned HTML skills and using CSS for setting up the layout and styling of the web page. Skills in image manipulation, animation, slide shows and modal windows were also demonstrated.</p>
+      <p>  I went with a print art store specializing in Futurism of the 19th century. Specifically Italian Futurism</p>
+        <a href="projects/kennyproject2-index.html" target="_blank" class="links"> Here is a look at my Project 2</a>
+      </div>
+<hr>
+<!--modal footer-->
+<div class="modal-footer">
+<button type="button" class="btn btn-danger" data-dismiss="modal"> Close</button>
+</div>
+    </div>
+  </div>
+</div>
+
+<br><br><br>
+
+<div class="container">
+<h2 class="bg-warning header2"> WHAT IS HTML, CSS and BOOTSTRAP??</h2>
+</div>
+
+<div class="container csel">
+
+<!-- Carousel/slideshow-->
+    <div class="carousel slide carouselContainer" data-ride='carousel' id="slideshow">
+      <div class="carousel-item active carouselSize">
+                <img src="images/classact/html.jpg" alt="HTML" title="HTML" class="img-thumbnail" >
+                <div class="carousel-caption captionCSS">
+                  HTML - (HYPERTEXT MARKUP LANGUAGE) Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.
+                </div>
+              </div>
+              <div class="carousel-item carouselSize">
+             <img src="images/classact/css.png" alt="CSS" title="CSS" class="img-thumbnail" >
+             <div class="carousel-caption captionCSS">
+               CSS - (CASCADING STYLE SHEET) Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+             </div>
+              </div>
+              <div class="carousel-item carouselSize">
+             <img src="images/classact/bstrap.png" alt="The Vessel" title="The Vessel" class="img-thumbnail" >
+             <div class="carousel-caption captionCSS">
+               BOOTSTRAP - Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation and other interface components.
+             </div>
+              </div>
+
+              <!--- left and right controls--->
+              <a href="#slideshow" data-slide='prev' class="carousel-control-prev"><span class="carousel-control-prev-icon" ></span></a>
+              <a href="#slideshow" data-slide='next' class="carousel-control-next"><span class="carousel-control-next-icon" ></span></a>
+
+             <!--indicators-->
+             <ul class="carousel-indicators">
+               <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+               <li data-target="#slideshow" data-slide-to="1" ></li>
+               <li data-target="#slideshow" data-slide-to="2" ></li>
+             </ul>
+
+</div>  <!-- end of carousel section -->
+
+</div>
+
+
+<br><hr><br>
+<!--Class Activities-->
+      <div class="container">
+        <h1 id='Cact' class="bg-warning header2">Class Activities</h1>
+      </div>
+
+<div class="container">
+  <div class="row classacts">
+
+<!--HTML-->
+<div class="col-sm-4">
+<div class="card classcards">
+  <img src="images/classact/html.jpg" alt="">
+  <p><b>HTML ACTIVITIES</b></p>
+<hr>
+  <p>This is essentially a basic intro to the world of HTML.</p>
+<hr>
+<ul>
+<li><a href="classworklist/kennyc_chap2(1).html" target="_blank">HTML Activity- 1 - Tables</a></li>
+</ul>
+</div>
+</div>
+
+
+
+<!--CSS-->
+<div class="col-sm-4">
+  <div class="card classcards">
+    <img src="images/classact/css.png" alt="">
+    <p><b>CSS ACTIVITIES</b></p>
+    <hr>
+    <p>Here are a few activities demonstrating basic CSS.</p>
+    <hr>
+    <ul>
+      <li><a href="classworklist/KennyActivity1.html" target="_blank">CSS Activity 1 - Basic CSS Elements</a></li>
+      <li><a href="classworklist/kennyc_chap2.html" target="_blank">CSS Activity 2 - CSS Animation</a></li>
+      <li><a href="classworklist/hyperlinks_Kenny_collado.html" target="_blank">CSS Activity 3 - Color/Image Manipulation</a></li>
+      <li><a href="classworklist/IntroCss_KennyCollado.zip" target="_blank">CSS Activity 4 - Modal Windows</a></li>
+    </ul>
+  </div>
+</div>
+
+
+<!--Bootstrap-->
+<div class="col-sm-4">
+  <div class="card classcards">
+    <img src="images/classact/bstrap.png" alt="">
+    <p><b>BOOTSTRAP ACTIVITIES</b></p>
+    <hr>
+    <p>After multiple activities using HTML and CSS, next was Bootstrap, which is a pre-set template
+      is used to expidite and create responsive and mobile format websites.</p>
+    <hr>
+    <ul>
+      <li><a href="classworklist/boot1/index.html" target="_blank">Bootstrap Activity 1 - Layouts and Cards</a></li>
+      <li><a href="classworklist/boot2/index.html" target="_blank">Bootstrap Activity 2 - Navigation Bars and Information Window</a></li>
+      <li><a href="classworklist/boot3/index.html" target="_blank">Bootstrap Activity 3 - Collapsables and Carousels</a></li>
+    </ul>
+  </div>
+</div>
+
+</div>
+
+</div>
+
+<br><hr><br>
+<!-- Contact-->
+<div class="container bg-warning contact" id="contact">
+      <h5> CONTACT ME</h5>
+
+
+<div class="container">
+<div class="row">
+    <div class="col-sm-3">
+          <h6>PHONE NUMBER</h6>
+          <hr>
+          <h6>+1 (718) 555-9055</h6>
+    </div>
+        <div class="col-sm-3">
+          <h6>EMAIL</h6>
+          <hr>
+          <h6>kenfcollado@gmail.com</h6>
+        </div>
+</div>
+</div>
+</div>
+
+<hr>
+
+<div class="container">
+Follow Kenny on Social Media:
+  <div class="row">
+    <div class="col-sm-2"><a target="_blank" title="Follow me on Facebook" href="https://www.facebook.com/"> <img alt="Facebook"src="images/logos/fb.png" border=0></a></div>
+    <div class="col-sm-2"><a target="_blank" title="Mail to" href="mailto:Kenfcollado@gmail.com"><img alt="Mail to Icon" src="images/logos/mail.png" border=0></a></div>
+    <div class="col-sm-2"><a target="_blank" title="Take a look at Pinterest" href="https://www.pinterest.com/"> <img alt="Pinterest Icon"src="images/logos/pin.png" border=0></a></div>
+    <div class="col-sm-2"><a target="_blank" title="Follow me on Instagram" href="https://www.instagram.com/"> <img alt="IG"src="images/logos/IG.png" border=0></a></div>
+    <div class="col-sm-2"><a target="_blank" title="Check me on Tumblr" href="https://www.tumblr.com/"> <img alt="Tumblr"src="images/logos/tumblr.png" border=0></a></div>
+  </div>
+</div>
+
+<hr><br><hr>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>
