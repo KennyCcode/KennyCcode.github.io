@@ -1,0 +1,119 @@
+img{
+  width: 100%;
+  height: 100%;
+}
+.ART1{
+  width: 700px;
+  margin: auto;
+  position: relative;
+}
+.ART2{
+    width: 250px;
+    position: absolute;
+    bottom: 0px;
+    animation-name: slide;
+    animation-duration: 3s;
+    animation-iteration-count: 4;
+    animation-delay: 3s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+.ART3{
+  width: 700px;
+  margin: auto;
+  position: relative;
+}
+
+.header{
+  width: 60%;
+   margin: auto;
+   border: solid black;
+   box-shadow: 5px 5px 5px black;
+   padding: 20px;
+   font-size: 20px;
+   font-weight: 500;
+   text-align: center;
+   background-color: orange;
+}
+
+@keyframes slide {
+from{transform: translateX(0px);}
+to{transform: translateX(450px);}
+}
+
+/* Bottom right text */
+.textbox1{
+  position: absolute;
+  border:darkred;
+  top: 20px;
+  right: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: gray;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  float: left;
+
+
+}
+
+
+/*--- Moving Square-circle--- */
+.frameContainer{
+  width: 1500px;
+  height: 600px;
+  background-color: lightblue;
+  position: relative;
+
+}
+.animationSquare{
+  height: 100px;
+  width: 100px;
+  background-color: darkblue;
+  position: absolute;
+  animation: animation_square 10s 20;
+}
+.img{
+  height: 100px;
+  width: 100px;
+  background-color: darkblue;
+  position: absolute;
+  animation: animation_square 10s 20;
+}
+@keyframes animation_square{
+  0%{background-color: darkblue; border-radius:0%; top: 0px;left: 0px;}
+  25%{background-color: darkred; border-radius: 50%; top:500px; left:1400px;}
+  50%{background-color: green; border-radius: 0%; top:0px; left:1400px;}
+  75%{background-color: yellow; border-radius: 50%; top: 500px; left:0px;}
+  100%{background-color: darkblue; border-radius: 0%;top: 0px; left: 0px;}
+}
+
+.print1{
+  height: 300px;
+  width:100px;
+
+}
+
+.newText{
+  color: darkblue;
+  text-align: center;
+  font-weight: 600;
+}
+
+.itemTitle,.itemSubtitle,.itemPrice{
+text-align: center;
+color: rgb(70,70,70);
+}
+
+.itemPrice{
+text-align: center;
+font-size: 1.3em;
+
+}
+.itemProm{
+  text-align: center;
+  color: red;
+  font-size: 0.9em;
+}

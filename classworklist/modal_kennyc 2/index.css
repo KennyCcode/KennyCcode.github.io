@@ -1,0 +1,202 @@
+body{
+padding: 10px;
+}
+.linkModal{
+  text-align: center;
+  background color: orange;
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 10px;
+  text-decoration: none;
+}
+.linkModal:hover{
+  background-color: lightyellow;
+  color:orange;
+
+}
+.modalWindow{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(100,100,100,0.5);
+  opacity:0;
+  pointer-events: none;
+}
+.modalWindow:target{
+  opacity: 1;
+  pointer-events: auto;
+  transition: ease-in 1s;
+
+}
+.msgText{
+  position: absolute;
+  width: 700px;
+  height: 500px;
+  background-color: white;
+  top: 200px;
+  left: 560px;
+}
+.msgText h3{
+  background-color: lightgray;
+  padding: 10px;
+  color: white;
+}
+.msgText img{
+  width: 30%;
+  margin-left: 35%;
+}
+.modal-close:hover{
+  padding: 12px;
+  color: red;
+  text-decoration: underline;
+
+}
+
+.maincontainer{
+  width: 100%;
+  margin-top: 50px;
+  height: 500px;
+
+}
+.item img{
+  width: 35%;
+  margin-left:32.5%;
+  height: 50%;
+  padding: 10px;
+}
+
+.newText{
+  color: darkblue;
+  text-align: center;
+  font-weight: 600;
+}
+
+.itemTitle,.itemSubtitle,.itemPrice{
+text-align: center;
+color: rgb(70,70,70);
+}
+
+.itemPrice{
+text-align: center;
+font-size: 1.3em;
+
+}
+.itemProm{
+  text-align: center;
+  color: red;
+  font-size: 0.9em;
+}
+.itemLink{
+  text-align: center;
+  background-color: rgb(70,70,70);
+  padding: 15px;
+  color: lightgray;
+  text-decoration: none;
+
+}
+
+.mainContainer{
+  border: solid red;
+  height: 500px;
+  width: auto;
+}
+.item1{
+  height: 500px;
+  width:20%;
+
+}
+
+.bagadd:hover{
+  padding: 12px;
+  color: black;
+  text-decoration: none;
+  background-color: lightgray;
+}
+.bagadd{
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  background-color: black;
+
+}
+
+p{
+  text-align: center;
+}
+.modalWindow2{
+  position: fixed;
+  top: 0;
+  left:0;
+  bottom: 0;
+  right:0;
+  background-color: rgba(100,100,100,0.5);
+  opacity: 0;
+  pointer-events: none;
+
+}
+.window1{
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  position: absolute;
+  width: 700px;
+  height: 500px;
+  background-color: white;
+  top: 100px;
+  left: 20%;
+}
+.Title1{
+  border-bottom: solid lightgray;
+
+}
+.photo1{
+  height: 200px;
+  width:700px;
+  padding-left: 50px;
+
+}
+.soapimage{
+  height: 200px;
+  width: 50%;
+  float: left;
+}
+img{
+  width: auto;
+  height: 100%;
+}
+.msgText{
+align-items: left;
+height: 200px;
+width: 50%;
+}
+
+.bg{
+float: left;
+height:100%;
+width: 50%;
+}
+
+.merch{
+  float: right;
+  height: 100%;
+  width: 45%;
+
+}
+.Title2{
+  height: 200px;
+  width: 700px;
+}
+.close:hover{
+  padding: 12px;
+  color: red;
+  text-decoration: underline;
+}
+
+.modalWindow2:target{
+  opacity:1;
+  pointer-events: auto;
+  transition: ease-in 0.2s;
+}

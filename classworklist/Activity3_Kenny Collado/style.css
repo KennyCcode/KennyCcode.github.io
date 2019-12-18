@@ -1,0 +1,22 @@
+body{
+  background-color:lightblue;
+}
+.title{color:violet; font-family: monospace;text-shadow:5px 10px 30px black;font-size:200%; text-align: center;}
+
+
+.author{
+  color:blue;font-family:"monotype corsiva";
+text-align: right;
+}
+
+p.intro:First-Letter{
+  font-size:3em;
+  color:black;
+  font-weight: bold;
+  text-align: center;
+}
+
+p.footer{
+  text-align: center;
+  font-size: 80%;
+}
